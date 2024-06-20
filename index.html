@@ -1,13 +1,368 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Welcome to My GitHub Page</h1>
-    <p>This is a simple GitHub Pages site.</p>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Kyle Duffy</h1>
+            <h2>Cyber Security Student</h2>
+            <a href="Files/Kyle Duffy - CV .pdf" class="btn-rounded-white" download>Download Resume</a>
+        </div>
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+		    <div class="about-img">
+		    	<img src="images/me.png" alt="Picture of myself loooking at the camera with my arms crossed against my chest">
+		    </div>
+                </div>
+                <div class="col-md-8">
+                    <p>
+			Hello, I'm Kyle Duffy, an aspiring Cyber Security professional with a strong passion for protecting digital environments. Currently, I'm pursuing a Master's degree in Cyber Security at the University of Waikato, building on my Bachelor’s degree in Information Technology from the Waikato Institute of Technology. My goal is to become a respected expert in the field, known for my dedication to safeguarding digital assets and mitigating cyber threats.
+		    <br><br>
+			My career objective is to excel in the Cyber Security landscape, making meaningful contributions to the field. I am committed to continuous learning and staying ahead of the latest advancements in cyber security. My ambition is to be recognized as a leader in the industry, known for my expertise and commitment to digital safety.
+                    <br><br>
+			When I'm not engaged in academic or professional pursuits, I enjoy participating in cyber security capture the flag (CTF) challenges, and I'm proud to have reached the final round in my latest attempt. I frequently use various online Ethical Hacking training grounds to broaden my understanding and develop my skills further.			    
+		    <br><br>
+		    	In addition to my passion for cyber security, I have a keen interest in digital concept art, which I practice on my drawing tablet. Spending time outdoors, particularly mountain biking and hiking. And playing video games online with my close friends. 
+		    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="July 2023 – March 2024">
+                <h3>University of Waikato</h3>
+                <h4>Content Migrator</h4>
+		    <p>
+		         <ul>
+			          <li><p>Demonstrated proficiency in using content management systems (CMS).</p></li>
+			          <li><p>Successfully executed content migration projects, ensuring seamless transition to content management systems (Squiz, SharePoint, Silverstripe).</p></li>
+			          <li><p>Proficient in migrating diverse content types, including text, images, and multimedia, all while maintaining data integrity.</p></li>
+			          <li><p>Adapted quickly to new platforms and technologies.</p></li>
+			          <li><p>Ensured compliance with industry standards and best practices throughout the migration process.</p></li>
+		        </ul>
+		    </p>
+            </div>
+
+            <div data-date="January 2020 – March 2023">
+                <h3>Architectual Glass Products</h3>
+                <h4>Production Operator</h4>
+		         <ul>
+			          <li><p>Working in a start-up company.</p></li>
+			          <li><p>Carrying out periodic acceptance and compliance tests to meet both factory and New Zealand standard format.</p></li>
+			          <li><p>Direct supervision and training of new operators.</p></li>
+			          <li><p>Liaising with other departments and external parties.</p></li>
+			          <li><p>Developed a program to track the efficiency of load cycles for my department using C#.</p></li>
+				  <li><p>Nominated by co-workers for the role of Health and Safety representative.</p></li>
+			          <li><p>Performing monthly Health and Safety audits.</p></li>
+		        </ul>
+            </div>
+
+            <div data-date="October 2018 - December 2019">
+                <h3>Ingham’s Enterprise</h3>
+                <h4>Production Operator</h4>
+		         <ul>
+			          <li><p>Responsible for the setting up and operation of processing equipment.</p></li>
+			          <li><p>Responsible for the hygiene and sanitation of processing equipment.</p></li>
+			          <li><p>Training new staff members to safely use and sanitize equipment.</p></li>
+			          <li><p>Documenting product quality checks after every batch or on a timely basis.</p></li>
+			          <li><p>Scanning, recording and stockpiling various ingredients which were used for the required product.</p></li>
+		        </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of Waikato</h3>
+            <span class="education-date">Currently Studying</span>
+            <h4>Masters of Cyber Security</h4>
+            <p>
+                My advanced studies in Cyber Security provided comprehensive knowledge and hands-on experience in key areas, including:
+		<br><br>
+		        <ul>
+			<div class="list-move-left">
+		            <li><p><b>Cyber Security:</b> Principles and practices for protecting information systems.</p></li>
+		            <li><p><b>Information Visualization:</b> Techniques for visual data representation.</p></li>
+		            <li><p><b>Legal Aspects of Cyber Security:</b> Legal frameworks and regulations.</p></li>
+		            <li><p><b>Cryptography:</b> Techniques for securing information via encryption.</p></li>
+		            <li><p><b>Security for Advanced Networks:</b> Securing complex network infrastructures.</p></li>
+		            <li><p><b>Malware Analysis and Penetration Testing:</b> Identifying and mitigating malware, ethical hacking.</p></li>
+		            <li><p><b>Secure Cloud Application Engineering:</b> Designing secure cloud applications.</p></li>
+		            <li><p><b>Dissertation:</b> Using machine learning to identify keyboard keystrokes based on sound, contributing to the understanding and mitigation of acoustic side-channel attacks.</p></li>
+			</div>
+		        </ul>
+	    </p>
+		<div class="list-gap-bottom">
+		<p>
+			My studies also covered key frameworks and standards critical to cyber security:
+			<br><br>
+		</p>
+		</div>
+		<p>
+			<ul>
+			<div class="list-move-left">
+		            <li><p><b>NIST Guidelines:</b> Managing and reducing cybersecurity risks.</p></li>
+		            <li><p><b>OWASP:</b> Improving software security, especially the OSWAP top 10.</p></li>
+		            <li><p><b>MITRE ATT&CK Framework:</b> Knowledge base of adversary tactics and techniques.</p></li>
+		            <li><p><b>ISO 27001/27002:</b> Standards for managing sensitive information and best practices for information security controls.</p></li>
+			</div>	
+		        </ul>
+           	</p>
+		<div class="list-gap-bottom">
+		    <a href="education.html#masters" class="center-link">View More</a>
+		</div>
+        </div>
+
+        <div class="education-block">
+            <h3>Waikato Institute of Technology</h3>
+            <span class="education-date">March 2015 - November 2017</span>
+            <h4>Bachelor of Information Technology</h4>
+            <p>
+                My academic journey in IT has equipped me with a strong foundation in both theoretical and practical aspects of the field. Many courses were covered throughout my time studying, some of which include:
+		<br><br>
+		        <ul>
+			<div class="list-move-left">
+		            <li><p><b>Mobile App Development:</b> Best practices for designing, developing, and deploying mobile apps.</p></li>
+		            <li><p><b>Networking / CISCO CCNA 1 & 2:</b> Configuring, managing, and troubleshooting Cisco network systems.</p></li>
+		            <li><p><b>Advanced Databases:</b> Design, implementation, and optimization of relational databases.</p></li>
+		            <li><p><b>Professional Intermediate Programming Practices:</b> Writing clean, efficient, and maintainable code.</p></li>
+		            <li><p><b>Games Programming:</b> Techniques and tools for developing interactive games.</p></li>
+		            <li><p><b>Systems Analysis:</b> Analyzing and designing information systems to meet business needs.</p></li>
+		            <li><p><b>Website Administration:</b> Setting up, configuring, and maintaining web servers and websites.</p></li>
+		            <li><p><b>Project:</b> Developed a user-friendly mobile app to assist people with dementia for a non-profit organization.</p></li>
+			</div>
+		        </ul>
+	    </p>
+		<div class="list-gap-bottom">
+		<p>
+			This coursework has provided me with a comprehensive skill set, enabling me to tackle complex technology challenges and contribute to innovative projects.
+		</p>
+		</div>
+		<div class="list-gap-bottom">
+		    <a href="education.html#bachelor" class="center-link">View More</a>
+		</div>
+        </div>
+
+        <div class="education-block">
+            <h3>Waikato Institute of Technology</h3>
+            <span class="education-date">March 2015 - November 2017</span>
+            <h4>PRINCE2 Foundation Certificate in Project Management</h4>
+            <p>
+                I have successfully completed the PRINCE2 Foundation Certificate in Project Management, showcasing my comprehensive understanding of the PRINCE2 methodology. This certification validates my knowledge of project management principles, including effective:
+		<br><br> 
+			<ul>
+			<div class="list-move-left">
+		            <li><p><b>Project Planning </b></p></li>
+		            <li><p><b>Risk Management </b></p></li>
+		            <li><p><b>Stakeholder Engagement </b></p></li>
+		            <li><p><b>Cost Control Strategies </b></p></li>
+			</div>
+		        </ul>
+		<div class="list-gap-bottom">
+		<p>
+			It reflects my dedication to adopting structured approaches to project execution and enhancing my capability to deliver projects on time, within scope, and within budget.
+		</p>
+		</div>
+	    </p>
+	    <div class="list-gap-bottom">
+		 <a href="education.html#certificate" class="center-link">View More</a>
+	    </div>
+        </div>
+    </div>
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Missed Load.png" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Missed Load Calculator</h3>
+                        <p>
+			    As a startup company, I developed a C# program to read .csv files with glass furnace production data. The program determines optimal processing times based on historical data and highlights delayed loads, showing missed load information and counts. I added a configurable delay feature to exclude minor delays from being categorized as missed. Later, I integrated a total timer to track cumulative lost time due to missed loads, aiding process optimization. Originally a temporary solution, the program significantly improved production efficiency.
+                        </p>
+                        <a href="Projects.html#MissedLoadCalculator">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Dissertation.png"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Machine Learning - Audio Classification</h3>
+                        <p>
+                            This dissertation focuses on the potential security risks associated with acoustic keystroke identification in authentication processes. By assembling diverse datasets from various audio
+			    recording devices and typing styles, including the utilization of a blue-switch mechanical keyboard, the study assesses the adaptability and reliability of acoustic keystroke identification under real-life
+                            working conditions. Achieving a high average classification accuracy of 88.61%, the research employs various machine learning algorithms and frequency extraction techniques.
+			</p>
+                        <a href="Projects.html#Dissertation">View Project</a>
+                    </div>
+                </div>
+
+		<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/androidstudio.png"/>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dementia Android Application</h3>
+                        <p>
+			    I developed a user-friendly mobile app in Android Studio for a non-profit organization, specifically designed to assist people with dementia. This app featured medication reminders, customizable daily schedules, emergency contact information, and memory aids such as photo albums and voice recordings. Developed in close collaboration with healthcare professionals and caregivers, its primary goal was to enhance safety, promote independence, and improve the overall quality of life for users by providing practical and accessible support.
+                        </p>
+			<a href="Projects.html#MobileApp">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>C#</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>php</li>
+            <li>Assembly</li>
+            <li>Amazon Web Services</li>
+            <li>EC2 Instances</li>
+            <li>Elastic Load Balancing</li>
+            <li>DynamoDB</li>
+            <li>S3 Bucket</li>
+            <li>Lambda</li>
+            <li>Threat Modelling</li>
+            <li>Risk Assessment</li>
+            <li>Penetration Testing</li>
+            <li>Machine Learning</li>
+            <li>Neural Networks</li>
+            <li>Software Development</li>
+            <li>Mobile App Development</li>
+	    <li>Web Development</li>
+            <li>Games Programming</li>
+            <li>Networking</li>
+            <li>Data Visualization</li>
+            <li>Database Management</li>
+            <li>Internal/Third-Party Liaising</li>
+        </ul>
+    </div>
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/mvoeeawo">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    
+	<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2024</span> Kyle Duffy
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <!-- <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> -->
+                        </li>
+                        <li>
+                            <!-- <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a> -->
+                        </li>
+                        <li>
+                            <!--  <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
+                        </li>
+                        <li>
+                            <!-- <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> -->
+                        </li>
+                        <li>
+                            <!-- <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> -->
+                        </li>
+                        <li>
+                             <!-- <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
